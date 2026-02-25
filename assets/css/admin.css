@@ -1,0 +1,133 @@
+﻿.adv-dashboard{
+    background: linear-gradient(135deg, #1e88e5, #42a5f5);
+    color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align:center;
+    margin-bottom:20px;
+}
+.adv-dashboard h1{ font-size:32px; margin-bottom:10px; }
+.adv-dashboard p{ font-size:16px; }
+
+.adv-cards{
+    display:flex; flex-wrap:wrap; gap:20px;
+}
+.adv-card{
+    background:#42a5f5; color:#fff;
+    flex:1; min-width:200px;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    transition: transform 0.3s;
+}
+.adv-card:hover{ transform:scale(1.05); }
+.adv-card h2{ font-size:22px; margin-bottom:8px; }
+.adv-card p{ font-size:14px; }
+.adv-settings-wrap h1 {
+    font-size:28px; margin-bottom:20px;
+    display:flex; align-items:center;
+}
+.adv-input {
+    width: 100%; max-width:400px; padding:8px; border:1px solid #ccc; border-radius:6px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+.adv-settings-wrap select.adv-input { width:50%; }
+.notice-success { border-left:5px solid #1e88e5; background:#e8f0fe; }
+/* Container Card */
+.adv-admin-container {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    max-width: 550px;
+    margin: 2px auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header Logo + Title */
+.adv-logo {
+    height: 45px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.adv-admin-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Notice */
+.adv-notice-success {
+    border-left: 5px solid #1e88e5;
+    background: #e8f0fe;
+    padding: 12px 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* Form box */
+.adv-settings-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Individual Field */
+.adv-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.adv-field input,
+.adv-field select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.adv-field input:focus,
+.adv-field select:focus {
+    border-color: #1e88e5;
+    box-shadow: 0 0 8px rgba(30,136,229,0.2);
+    outline: none;
+}
+
+/* Save Button */
+.adv-save-btn {
+    padding: 10px 22px;
+    background: #1e88e5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.adv-save-btn:hover {
+    background: #1565c0;
+    transform: scale(1.05);
+}
+
+/* Footer Text */
+.adv-footer-text {
+    margin-top: 15px;
+    font-size: 13px;
+    color: #555;
+}
+
+.adv-footer-brand {
+    color: #0073aa;
+}
